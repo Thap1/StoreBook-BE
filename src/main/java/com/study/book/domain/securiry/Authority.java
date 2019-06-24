@@ -8,7 +8,7 @@ public class Authority implements GrantedAuthority, Serializable {
 	private static final long serialVersionUID = 123123L;
 	private String authority;
 
-	public void Anthority(String authority) {
+	public Authority(String authority) {
 		this.authority = authority;
 	}
 
